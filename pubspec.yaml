@@ -11,7 +11,7 @@ environment:
 dependencies:
   socket_io_common_v1:
     git:
-      url: git://github.com/azhezzzz/socket_io_common.git
+      url: https://github.com/azhezzzz/socket_io_common.git
       ref: "socket_io_common_v1"
   js: "^0.6.3"
   logging: "^1.0.1"
