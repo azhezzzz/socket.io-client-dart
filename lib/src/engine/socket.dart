@@ -7,9 +7,9 @@ import 'dart:convert';
 
 import 'package:logging/logging.dart';
 import 'package:socket_io_common_v1/src/util/event_emitter.dart';
-import 'package:socket_io_client/src/engine/parseqs.dart';
+import 'package:socket_io_client_v1/src/engine/parseqs.dart';
 import 'package:socket_io_common_v1/src/engine/parser/parser.dart' as parser;
-import 'package:socket_io_client/src/engine/transport/polling_transport.dart';
+import 'package:socket_io_client_v1/src/engine/transport/polling_transport.dart';
 import './transport/transport.dart';
 
 // ignore: uri_does_not_exist
