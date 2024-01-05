@@ -4,15 +4,15 @@ version: 1.0.2
 homepage: https://www.zkoss.org
 repository: https://github.com/rikulo/socket.io-client-dart
 issue_tracker: https://github.com/rikulo/socket.io-client-dart/issues
-
+publish_to: none
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  socket_io_common:
+  socket_io_common_v1:
     git:
-      url: https://github.com/rikulo/socket_io_common
-      ref: 1.0
+      url: https://github.com/azhezzzz/socket_io_common.git
+      ref: "socket_io_common_v1"
   js: "^0.6.3"
   logging: "^1.0.1"
 
